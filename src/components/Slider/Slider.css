@@ -1,0 +1,54 @@
+.slider {
+  background: rgba(0, 0, 0, 0) url("../../img/slider/appshowcase1.jpg") repeat
+    scroll 0% 0% / cover;
+  height: 602px;
+  /* position: fixed; */
+}
+
+.slider-container {
+  display: flex;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.slider-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slider-info-title {
+  letter-spacing: -2px;
+}
+
+h1 {
+  font-size: 52px;
+  color: #fff;
+}
+
+.slider-info-start-button {
+  color: #fff;
+}
+
+.start-button-link {
+  text-decoration: none;
+  border-color: #eee;
+  color: #eee;
+}
+
+.button-text {
+  text-align: left;
+  font-size: 22px;
+  /* font-family: Raleway,sans-serif; */
+}
+
+.button-text span {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  /* font-family: crete round, serif; */
+  font-style: italic;
+  text-transform: none;
+}
