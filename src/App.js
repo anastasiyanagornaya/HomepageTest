@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "./components/Header/Header";
-import Slider from "./components/Slider/Slider";
-import Advantages from "./components/Advantages/Advantages";
-import Scalability from "./components/Scalability/Scalability";
-import Description from "./components/Description/Description";
-import Responsiveness from "./components/Responsiveness/Responsiveness";
-import Footer from "./components/Footer/Footer";
+import Header from "./components/Header";
+import Slider from "./components/Slider";
+import Advantages from "./components/Advantages";
+import Scalability from "./components/Scalability";
+import Description from "./components/Description";
+import Responsiveness from "./components/Responsiveness";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {

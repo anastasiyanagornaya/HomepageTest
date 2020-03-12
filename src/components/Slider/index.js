@@ -1,13 +1,13 @@
 import React from "react";
 import AppleIcon from "@material-ui/icons/Apple";
 
-import "./Slider.css";
+import "./style.scss";
 
 const Slider = () => {
   return (
     <div className="slider">
       <div className="slider-container">
-        <div className="slider-phone">
+        <div className="slider-image">
           <img src="../../../img/slider/slider-iphone.png" alt="IPhone" />
         </div>
         <div className="slider-info">
@@ -17,10 +17,10 @@ const Slider = () => {
               <strong>Canvas</strong> Template.
             </h1>
           </div>
-          <div className="slider-info-start-button">
-            <a href="#" className="start-button-link">
+          <div className="slider-info-button">
+            <a href="#" className="slider-info-button-link">
               <AppleIcon />
-              <div className="button-text">
+              <div className="slider-info-button-text">
                 Start your free trial{" "}
                 <span>30-Days & No Credit card Required</span>
               </div>

@@ -1,14 +1,14 @@
 import React from "react";
 
-import "./Scalability.css";
+import "./style.scss";
 
 const Scalability = () => {
   return (
     <div className="scalability">
       <div className="scalability-container">
-        <div className="container">
+        <div className="scalability-box">
           <div className="scalability-description">
-            <div className="description-title">
+            <div className="scalability-description-title">
               <h2>Awesome scalable apps</h2>
               <span>Our Template acts & behaves truly as a Canvas.</span>
             </div>
@@ -24,7 +24,7 @@ const Scalability = () => {
               quidem tempore necessitatibus quaerat, voluptates excepturi
               voluptatem, veritatis qui temporibus.
             </p>
-            <a href="#" className="button">
+            <a href="#" className="scalability-description-button">
               Start Trial
             </a>
           </div>

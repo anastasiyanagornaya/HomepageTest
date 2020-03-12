@@ -1,0 +1,32 @@
+.advantages {
+  &-container {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  &-box {
+    padding: 80px 0;
+  }
+  &-items {
+    display: flex;
+  }
+  &-item {
+    list-style-type: none;
+    width: 30.63%;
+    text-align: center;
+    margin-right: 4%;
+    h4 {
+      color: #444;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.5;
+      margin: 0 0 30px;
+      /* font-family: Raleway,sans-serif; */
+    }
+    p {
+      line-height: 1.8;
+      margin: 0 0 30px;
+      /* font-size: 0.875rem; right*/
+      font-size: 0.8rem;
+    }
+  }
+}
