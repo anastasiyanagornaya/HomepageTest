@@ -7,6 +7,9 @@ const Responsiveness = () => {
     <div className="responsiveness-section">
       <div className="responsiveness-container">
         <div className="container">
+          <div className="responsiveness-image">
+            <img src="/../../img/responsiveness/iphone-solid.png" />
+          </div>
           <div className="responsiveness-description">
             <div className="description-title">
               <h2>Typically responsive</h2>

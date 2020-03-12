@@ -22,7 +22,7 @@ const Slider = () => {
               <AppleIcon />
               <div className="button-text">
                 Start your free trial{" "}
-                <span>30-Days No Credit card Required</span>
+                <span>30-Days & No Credit card Required</span>
               </div>
             </a>
           </div>
