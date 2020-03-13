@@ -1,6 +1,4 @@
 import React from "react";
-import SearchIcon from "@material-ui/icons/Search";
-import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 
 import "./style.scss";
 import logo from "../../img/header/logo.png";
@@ -35,10 +33,10 @@ const Header = () => {
         </ul>
         <div className="header-nav-icons">
           <a href="#" className="header-nav-icons-item">
-            <SearchIcon />
+            <i class="fa fa-search"></i>
           </a>
           <a href="#" className="header-nav-icons-item shopping">
-            <ShoppingCartIcon />
+            <i class="fa fa-shopping-cart"></i>
           </a>
         </div>
       </div>

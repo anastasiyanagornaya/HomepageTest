@@ -9,6 +9,8 @@ import Displays from "./components/Displays";
 import Platforms from "./components/Platforms";
 import Information from "./components/Information";
 import Footer from "./components/Footer";
+import GoTop from "./components/GoTop";
+import Gear from "./components/Gear";
 import "./App.css";
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
       <Platforms />
       <Information />
       <Footer />
+      <GoTop />
+      <Gear />
     </div>
   );
 }
