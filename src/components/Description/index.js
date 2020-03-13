@@ -1,4 +1,5 @@
 import React from "react";
+import DescriptionItem from "../DescriptionItem";
 
 import "./style.scss";
 
@@ -54,15 +55,11 @@ const Description = () => {
         <ul className="description-items">
           {descItems.map(item => (
             <li key={item.id} className="description-item">
-              <div className="description-item-box">
-                <div className="description-item-box-icon">
-                  <a href="#" className="description-item-box-icon-link">
-                    <img src={item.img} />
-                  </a>
-                </div>
-                <h3>{item.title}</h3>
-                <p>{item.description}</p>
-              </div>
+              <DescriptionItem
+                img={item.img}
+                title={item.title}
+                description={item.description}
+              />
             </li>
           ))}
         </ul>

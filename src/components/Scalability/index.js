@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../Button";
 
 import "./style.scss";
 
@@ -24,9 +25,7 @@ const Scalability = () => {
               quidem tempore necessitatibus quaerat, voluptates excepturi
               voluptatem, veritatis qui temporibus.
             </p>
-            <a href="#" className="scalability-description-button">
-              Start Trial
-            </a>
+            <Button title={"Start Trial"} />
           </div>
         </div>
       </div>

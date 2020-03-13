@@ -3,6 +3,7 @@ import SearchIcon from "@material-ui/icons/Search";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 
 import "./style.scss";
+import logo from "../../img/header/logo.png";
 
 const navItems = [
   "Home",
@@ -19,7 +20,7 @@ const Header = () => {
     <div className="header">
       <div className="header-logo">
         <a href="#">
-          <img src="../../img/header/Capture-logo.jpg" alt="Logo" />
+          <img src={logo} alt="Logo" />
         </a>
       </div>
       <div className="header-nav">

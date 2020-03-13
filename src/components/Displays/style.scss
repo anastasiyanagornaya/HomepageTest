@@ -1,0 +1,41 @@
+.displays {
+  margin-bottom: 60px;
+  background-color: #282828;
+  &-container {
+    width: 1140px;
+    margin: 0 auto;
+  }
+  &-title {
+    text-align: center;
+    margin-bottom: 50px;
+    h2 {
+      font-size: 30px;
+      color: #fff;
+      margin: 0;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      line-height: 1.5;
+      font-family: Raleway, sans-serif;
+      &:after {
+        content: "";
+        display: block;
+        width: 40px;
+        border-top: 2px solid #444;
+        border-top-color: rgba(255, 255, 255, 0.4);
+        margin: 30px auto 0;
+      }
+    }
+  }
+  &-animated-block {
+    position: relative;
+    margin-bottom: -60px;
+    height: 415px;
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      max-width: 100%;
+    }
+  }
+}

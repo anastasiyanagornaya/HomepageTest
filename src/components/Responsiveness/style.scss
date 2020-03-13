@@ -4,10 +4,18 @@
   padding: 60px 0;
   background-color: #f9f9f9;
   overflow: hidden;
+  &-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 80px;
+  }
   &-box {
     display: flex;
     max-width: 1170px;
     margin: 0 auto;
+  }
+  &-image {
+    width: 48%;
   }
   &-description {
     width: 48%;
@@ -30,7 +38,7 @@
         letter-spacing: 1px;
         color: #333;
       }
-      &-span {
+      span {
         display: block;
         margin-top: 10px;
         font-size: 22px;
@@ -43,35 +51,6 @@
       font-size: 15px;
       margin-bottom: 30px;
       color: #555;
-    }
-    &-button {
-      border: 2px solid #444;
-      background-color: transparent;
-      color: #333;
-      line-height: 42px;
-      font-weight: 700;
-      text-shadow: none;
-      border-radius: 3px;
-      padding: 0 26px;
-      font-size: 16px;
-      height: 46px;
-      display: inline-block;
-      position: relative;
-      cursor: pointer;
-      outline: 0;
-      white-space: nowrap;
-      margin: 5px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      text-decoration: none;
-      transition: all 0.2s ease-in-out;
-      &:hover {
-        background-color: #444;
-        color: #fff;
-        border-color: transparent !important;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-        transition: all 0.2s ease-in-out;
-      }
     }
   }
 }

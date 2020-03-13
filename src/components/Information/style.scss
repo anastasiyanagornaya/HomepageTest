@@ -1,0 +1,90 @@
+.information {
+  font-size: 14px;
+  background-color: #333;
+  &-container {
+    margin: 0 auto;
+    width: 1170px;
+  }
+  &-summary {
+    display: flex;
+    color: #ccc;
+    padding: 80px 0;
+
+    &-canvas {
+      color: #ccc;
+      width: 30.63%;
+      margin-right: 4%;
+      text-align: left;
+      &-logo {
+        margin-bottom: 30px;
+      }
+      p {
+        margin-bottom: 30px;
+      }
+      &-headquarters {
+        background-image: url("../../img/information/world-map.png");
+        address {
+          margin-bottom: 30px;
+        }
+      }
+    }
+    &-blogroll {
+      text-align: left;
+      width: 30.63%;
+      margin-right: 4%;
+      h4 {
+        margin: 0 0 25px;
+      }
+      &-items {
+        padding: 0;
+      }
+      &-item {
+        list-style-type: none;
+        padding: 4px;
+
+        a {
+          text-decoration: none;
+          color: #ccc;
+        }
+      }
+    }
+    // p {
+    // //   color: #ccc;
+    // }
+    &-posts {
+      width: 30.63%;
+      text-align: left;
+      margin-right: 4%;
+      h4 {
+        margin: 0 0 25px;
+      }
+      &-items {
+        padding: 0;
+      }
+      &-item {
+        list-style-type: none;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        border-bottom: 1px dashed #e5e5e5;
+        a {
+          text-decoration: none;
+          color: #ccc;
+        }
+      }
+    }
+  }
+  &-contacts {
+    text-align: left;
+    margin-right: 4%;
+    width: 30.63%;
+    &-statistics {
+      display: flex;
+    }
+    &-subscribe {
+      margin-top: 50px;
+    }
+    &-networks {
+      margin-top: 50px;
+    }
+  }
+}

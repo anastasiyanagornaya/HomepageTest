@@ -1,6 +1,8 @@
 import React from "react";
+import Button from "../Button";
 
 import "./style.scss";
+import iphone from "../../img/responsiveness/iphone-solid.png";
 
 const Responsiveness = () => {
   return (
@@ -8,7 +10,7 @@ const Responsiveness = () => {
       <div className="responsiveness-container">
         <div className="responsiveness-box">
           <div className="responsiveness-image">
-            <img src="/../../img/responsiveness/iphone-solid.png" />
+            <img src={iphone} />
           </div>
           <div className="responsiveness-description">
             <div className="responsiveness-description-title">
@@ -22,9 +24,7 @@ const Responsiveness = () => {
               quidem tempore necessitatibus quaerat, voluptates excepturi
               voluptatem, veritatis qui temporibus.
             </p>
-            <a href="#" className="responsiveness-description-button">
-              View Gallery
-            </a>
+            <Button title={"View gallery"} />
           </div>
         </div>
       </div>

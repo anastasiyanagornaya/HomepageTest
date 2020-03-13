@@ -5,6 +5,9 @@ import Advantages from "./components/Advantages";
 import Scalability from "./components/Scalability";
 import Description from "./components/Description";
 import Responsiveness from "./components/Responsiveness";
+import Displays from "./components/Displays";
+import Platforms from "./components/Platforms";
+import Information from "./components/Information";
 import Footer from "./components/Footer";
 import "./App.css";
 
@@ -15,8 +18,11 @@ function App() {
       <Slider />
       <Advantages />
       <Scalability />
-      <Description />
       <Responsiveness />
+      <Description />
+      <Displays />
+      <Platforms />
+      <Information />
       <Footer />
     </div>
   );

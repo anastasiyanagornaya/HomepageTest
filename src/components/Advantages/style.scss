@@ -8,6 +8,7 @@
   }
   &-items {
     display: flex;
+    padding: 0;
   }
   &-item {
     list-style-type: none;
@@ -20,13 +21,14 @@
       font-weight: 600;
       line-height: 1.5;
       margin: 0 0 30px;
-      /* font-family: Raleway,sans-serif; */
+      font-family: Raleway, sans-serif;
     }
     p {
       line-height: 1.8;
       margin: 0 0 30px;
-      /* font-size: 0.875rem; right*/
-      font-size: 0.8rem;
+      font-size: 0.875rem;
+      // font-size: 0.8rem;
+      font-family: Lato, sans-serif;
     }
   }
 }
