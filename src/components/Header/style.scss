@@ -1,26 +1,91 @@
 .header {
   display: flex;
   justify-content: space-between;
+  position: relative;
   &-navbar {
     display: flex;
     justify-content: space-between;
   }
+  @media (max-width: 575.98px) {
+    width: 100%;
+  }
+  @media (min-width: 576px) {
+    width: 540px;
+    margin: 0 auto;
+  }
+  @media (min-width: 768px) {
+    width: 750px;
+    margin: 0 auto;
+  }
+  @media (min-width: 992px) {
+    width: 750px;
+    margin: 0 auto;
+  }
+  @media (min-width: 1200px) {
+    width: 100%;
+    // margin: 0 auto;
+  }  
 
   &-logo {
     border-right: 1px solid #eee;
     padding: 0 30px;
+    @media (max-width: 991px) {
+      margin: 0 auto;
+      border-right: 0;
+    }
   }
 
   &-nav {
     display: flex;
+    @media (max-width: 991px) {
+      max-height: 0;
+      background: white;
+      float: none;
+      position: absolute;
+      display: none;
+      top: 63px;
+      right: 0;
+      left: 0;
+      margin: 0;
+      padding: 0;
+      z-index: 3;
+    }
+    &-trigger {
+      // position: absolute;
+      // top: 38px;
+      // left: 20px;
+      display: none;
+      font-size: 14px;
+      @media (max-width: 991px) {
+        display: block;
+        margin: auto 0;
+        // padding: 0 30px;
+      }
+    }
 
     &-items {
       display: flex;
       border-right: 1px solid #eee;
       padding: 0 15px 0 0;
       margin: 0;
+      @media (max-width: 991px) {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 100%;
+        padding: 0 0;
+        border-right: 0;
+      }
     }
     &-item {
+      @media (max-width: 991px) {
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid #EBEBE3;
+        margin-right: 0;
+        background-color: white;
+      }
       list-style-type: none;
 
       &-link {
@@ -43,6 +108,9 @@
       padding: 0 30px;
       margin: 40px 0;
       color: #000 !important;
+      @media (max-width: 991px) {
+        padding: 0;
+      }
 
       &-item {
         color: black !important;
@@ -53,4 +121,19 @@
       }
     }
   }
+}
+
+#menu-toggle{
+  &:checked + .header-nav-items{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  &:checked + .header-nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: block;
+    float: none;
+  }
+  display: none;
 }

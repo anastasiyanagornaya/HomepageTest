@@ -1,9 +1,7 @@
 .description {
   background-color: #282828;
   padding: 60px 0 10px;
-  &-container {
-    max-width: 1170px;
-    margin: 0 auto;
+  .container {
     &:after {
       content: "";
       display: block;
@@ -53,6 +51,9 @@
       color: #888;
       margin: 8px 0 0;
       font-size: 0.875rem;
+    }
+    @media (max-width: 767px) {
+      width: 100%;
     }
   }
 }

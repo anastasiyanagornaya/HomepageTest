@@ -7,7 +7,7 @@ import iphone from "../../img/responsiveness/iphone-solid.png";
 const Responsiveness = () => {
   return (
     <div className="responsiveness">
-      <div className="responsiveness-container">
+      <div className="container">
         <div className="responsiveness-box">
           <div className="responsiveness-image">
             <img src={iphone} />

@@ -7,7 +7,7 @@ import ipad3 from "../../img/displays/ipad3.png";
 const Displays = () => {
   return (
     <div className="displays">
-      <div className="displays-container">
+      <div className="container">
         <div className="displays-title">
           <h2>Looks beautiful on all displays.</h2>
         </div>

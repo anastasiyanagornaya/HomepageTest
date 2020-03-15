@@ -5,7 +5,7 @@ import "./style.scss";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="footer-container">
+      <div className="container flex">
         <div className="footer-copirights">
           Copyrights © 2014 All Rights Reserved by Canvas Inc.
           <br />

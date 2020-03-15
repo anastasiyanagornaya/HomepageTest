@@ -51,7 +51,7 @@ const descItems = [
 const Description = () => {
   return (
     <div className="description">
-      <div className="description-container">
+      <div className="container">
         <ul className="description-items">
           {descItems.map(item => (
             <li key={item.id} className="description-item">

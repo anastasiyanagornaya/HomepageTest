@@ -3,13 +3,6 @@
   color: rgba(255, 255, 255, 0.25);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
   padding: 40px 0;
-  &-container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
-  }
   &-copyrights {
     text-align: left;
     font-size: 14px;
@@ -28,6 +21,9 @@
         border-bottom-color: rgba(255, 255, 255, 0.25);
       }
     }
+    @media (max-width: 767px) {
+      text-align: center;
+    }
   }
   &-contacts {
     &-info {
@@ -35,9 +31,20 @@
         margin: 0 5px;
       }
     }
+    @media (max-width: 767px) {
+      display: none;
+    }
   }
 }
 
 .middot {
   margin: 0 5px 5px; //??
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 767px) {
+    justify-content: center;
+  }
 }

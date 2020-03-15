@@ -7,7 +7,7 @@ const Scalability = () => {
   return (
     <div className="scalability">
       <div className="scalability-background">
-        <div className="scalability-container">
+        <div className="container">
           <div className="scalability-box">
             <div className="scalability-description">
               <div className="scalability-description-title">

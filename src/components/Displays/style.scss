@@ -1,10 +1,6 @@
 .displays {
   margin-bottom: 60px;
   background-color: #282828;
-  &-container {
-    width: 1140px;
-    margin: 0 auto;
-  }
   &-title {
     text-align: center;
     margin-bottom: 50px;
@@ -36,5 +32,20 @@
       left: 0;
       max-width: 100%;
     }
+    @media (max-width: 575.98px) {
+      height: 147px;
+    }
+    @media (min-width: 576px) {
+      height: 197px;
+    }
+    @media (min-width: 768px) {
+      height: 262px;
+    }
+    @media (min-width: 992px) {
+      height: 342px;
+    }
+    @media (min-width: 1200px) {
+      height: 415px;
+    }    
   }
 }

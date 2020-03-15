@@ -35,7 +35,7 @@ const Posts = [
 const Information = () => {
   return (
     <div className="information">
-      <div className="information-container">
+      <div className="container">
         <div className="information-summary">
           <div className="information-summary-canvas">
             <div className="information-summary-canvas-logo">

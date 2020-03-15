@@ -32,7 +32,7 @@ const advantageItems = [
 
 const Advantages = () => {
   return (
-    <div className="advantages-container">
+    <div className="container">
       <div className="advantages-box">
         <ul className="advantages-items">
           {advantageItems.map(item => (

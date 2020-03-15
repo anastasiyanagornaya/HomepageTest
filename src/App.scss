@@ -1,6 +1,6 @@
-/* .App {
+.App {
   text-align: center;
-} */
+}
 
 .App-logo {
   height: 40vmin;
@@ -34,5 +34,36 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+div, p, input, button, form {
+  box-sizing: border-box;
+}
+
+.container {
+  @media (max-width: 575.98px) {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  @media (min-width: 576px) {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+  @media (min-width: 768px) {
+    max-width: 750px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  @media (min-width: 992px) {
+    max-width: 970px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  @media (min-width: 1200px) {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
   }
 }

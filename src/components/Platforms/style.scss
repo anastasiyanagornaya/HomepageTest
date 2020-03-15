@@ -1,9 +1,8 @@
 .platforms {
-  padding: 50px 0 80px;
+  padding-bottom: 80px;
   text-align: center;
-  &-container {
-    width: 1170px;
-    margin: 0 auto;
+  &-box {
+    width: 100%;
   }
   &-info {
     &-title {
@@ -69,6 +68,47 @@
       color: #333;
       span {
         color: #1abc9c;
+      }
+    }
+  }
+  &-form {
+    &-subscribe {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      height: 50px;
+      max-width: 600px;
+      &-icon {
+        &-box {
+          padding: 13px 16px 14px;
+          background-color: #e9ecef;
+          border: 1px solid #ced4da;
+          border-right: none;
+          border-radius: 5px 0 0 5px;
+          i {
+            font-size: 1.25rem;
+            color: #495057;
+          }
+        }
+      }
+      input {
+        display: block;
+        border: 1px solid #ced4da;
+        padding: .5rem 1rem;
+        width: 100%;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+      }
+      &-button {
+        background-color: #6c757d;
+        color: #fff;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+        border-radius: 0 5px 5px 0;
       }
     }
   }

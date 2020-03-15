@@ -11,7 +11,7 @@ import Information from "./components/Information";
 import Footer from "./components/Footer";
 import GoTop from "./components/GoTop";
 import Gear from "./components/Gear";
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (

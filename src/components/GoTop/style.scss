@@ -15,4 +15,9 @@
   bottom: 50px;
   cursor: pointer;
   border-radius: 2px;
+  transition: background-color .2s linear;
+  &:hover {
+    background-color: #1abc9c;
+    transition: background-color .2s linear;
+  }
 }
