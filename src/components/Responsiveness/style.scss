@@ -6,23 +6,24 @@
   overflow: hidden;
   &-container {
     max-width: 1170px;
+    padding: 0 15px;
     margin: 0 auto;
-    padding-top: 80px;
   }
   &-box {
     display: flex;
     max-width: 1170px;
+    padding-top: 80px;
     margin: 0 auto;
   }
   &-image {
+    margin-right: 4%;
     width: 48%;
   }
   &-description {
     width: 48%;
-    margin-right: 4%;
     text-align: left;
     &-title {
-      margin: 30px 0 50px;
+      margin: 80px 0 50px;
       &:after {
         content: "";
         display: block;

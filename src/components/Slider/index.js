@@ -20,10 +20,12 @@ const Slider = () => {
           </div>
           <div className="slider-info-button">
             <a href="#" className="slider-info-button-link">
-              <i class="fa fa-apple"></i>
-              <div className="slider-info-button-text">
-                Start your free trial{" "}
-                <span>30-Days & No Credit card Required</span>
+              <div className="slider-info-button-link-box">
+                <i class="fa fa-apple"></i>
+                <div className="slider-info-button-link-text">
+                  Start your free trial{" "}
+                  <span>30-Days & No Credit card Required</span>
+                </div>
               </div>
             </a>
           </div>

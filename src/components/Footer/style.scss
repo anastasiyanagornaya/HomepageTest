@@ -1,12 +1,13 @@
 .footer {
-  background-color: #212529;
+  background-color: #292929;
   color: rgba(255, 255, 255, 0.25);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
   padding: 40px 0;
   &-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     max-width: 1170px;
+    padding: 0 15px;
     margin: 0 auto;
   }
   &-copyrights {
@@ -28,4 +29,15 @@
       }
     }
   }
+  &-contacts {
+    &-info {
+      &.middot {
+        margin: 0 5px;
+      }
+    }
+  }
+}
+
+.middot {
+  margin: 0 5px 5px; //??
 }

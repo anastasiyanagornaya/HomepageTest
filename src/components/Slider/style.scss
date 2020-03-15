@@ -1,6 +1,7 @@
 .slider {
-  background: rgba(0, 0, 0, 0) url("../../img/slider/appshowcase1.jpg") repeat
-    fixed;
+  // background: rgba(0, 0, 0, 0) url("../../img/slider/appshowcase1.jpg") repeat
+  //   fixed;
+  background: url("../../img/slider/appshowcase1.jpg") 0% 0% / cover;
   // background-position: fixed;
   // height: 602px;
   height: 658px;
@@ -29,11 +30,13 @@
   &-container {
     display: flex;
     max-width: 1170px;
+    padding: 0 15px;
     margin: 0 auto;
     // transform-style: preserve-3d;
   }
   &-image {
-    position: relative;
+    // position: relative;
+    margin-right: 5%;
     img {
       // position: absolute;
       position: relative;
@@ -45,10 +48,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     width: 48%;
     &-title {
+      margin: 0 0 50px;
       letter-spacing: -2px;
+      line-height: 1.5;
       h1 {
+        margin: 0;
         font-size: 52px;
         color: #fff;
         letter-spacing: -2px;
@@ -59,7 +66,7 @@
     &-button {
       color: #fff;
       &-link {
-        display: flex;
+        display: inline-block;
         text-decoration: none;
         border-color: #eee;
         color: #eee;
@@ -83,29 +90,33 @@
           background-color: #eee;
           color: #333;
         }
-        i {
-          top: 1px;
-          font-size: 48px;
-          width: 48px;
-          text-align: center;
-          margin-right: 12px;
+        &-box {
+          display: flex;
+          i {
+            top: 1px;
+            font-size: 48px;
+            width: 48px;
+            text-align: center;
+            margin-right: 12px;
+          }
         }
-      }
-      &-text {
-        text-align: left;
-        font-size: 22px;
-        font-weight: 700;
-        // letter-spacing: 1px;
-        font-family: Raleway, sans-serif;
-        span {
-          display: block;
-          margin-top: 10px;
-          font-size: 14px;
-          font-weight: 400;
+        &-text {
+          text-align: left;
+          font-size: 22px;
+          font-weight: 700;
           letter-spacing: 1px;
-          font-family: crete round, serif;
-          font-style: italic;
-          text-transform: none;
+          line-height: 1;
+          font-family: Raleway, sans-serif;
+          span {
+            display: block;
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            font-family: crete round, serif;
+            font-style: italic;
+            text-transform: none;
+          }
         }
       }
     }

@@ -1,4 +1,4 @@
-#icon-cog {
+#gear {
   position: fixed;
   top: 120px;
   right: 25px;
@@ -8,9 +8,17 @@
   border: 1px solid rgba(0, 0, 0, 0.09);
   border-radius: 3px;
   box-shadow: 0 13px 42px 11px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  cursor: pointer;
   z-index: 9999;
   overflow: hidden;
   // -webkit-transition: all .45s ease;
   // -o-transition: all .45s ease;
   transition: all 0.45s ease;
+  i {
+    position: fixed;
+    top: 136px;
+    right: 41px;
+    font-size: 18px;
+  }
 }

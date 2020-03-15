@@ -1,0 +1,16 @@
+
+.description-item-box {
+    h3 {
+        margin: 0; //?don't work
+    }
+    &-icon {
+        &-link {
+            i {
+            font-size: 48px;
+            line-height: 1;
+            color: #1abc9c;
+            padding: 4px 0 0 6px;
+            }
+        }
+    }
+}
