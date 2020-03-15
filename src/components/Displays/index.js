@@ -12,8 +12,8 @@ const Displays = () => {
           <h2>Looks beautiful on all displays.</h2>
         </div>
         <div className="displays-animated-block">
-          <img src={chrome} />
-          <img src={ipad3} />
+          <img src={chrome} class="fadeInUp animated"  data-animate="fadeInUp" alt="Chrome" />
+          <img src={ipad3} class="fadeInUp animated"  data-animate="fadeInUp" data-delay="300" alt="Ipad"/>
         </div>
       </div>
     </div>
