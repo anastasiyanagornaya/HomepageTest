@@ -1,7 +1,9 @@
 .header {
   display: flex;
   justify-content: space-between;
-  position: relative;
+  position: fixed;
+  z-index: 555;
+  background-color: white;
   &-navbar {
     display: flex;
     justify-content: space-between;
@@ -24,7 +26,7 @@
   @media (min-width: 1200px) {
     width: 100%;
     // margin: 0 auto;
-  }  
+  }
 
   &-logo {
     border-right: 1px solid #eee;
@@ -37,6 +39,9 @@
 
   &-nav {
     display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    border-right: 1px solid #eee;
     @media (max-width: 991px) {
       max-height: 0;
       background: white;
@@ -65,14 +70,13 @@
 
     &-items {
       display: flex;
-      border-right: 1px solid #eee;
       padding: 0 15px 0 0;
       margin: 0;
       @media (max-width: 991px) {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
         width: 100%;
         padding: 0 0;
         border-right: 0;
@@ -82,7 +86,7 @@
       @media (max-width: 991px) {
         display: block;
         text-align: center;
-        border-bottom: 1px solid #EBEBE3;
+        border-bottom: 1px solid #ebebe3;
         margin-right: 0;
         background-color: white;
       }
@@ -105,8 +109,9 @@
       }
     }
     &-icons {
+      display: flex;
       padding: 0 30px;
-      margin: 40px 0;
+      margin: 42px 0 40px;
       color: #000 !important;
       @media (max-width: 991px) {
         padding: 0;
@@ -123,13 +128,13 @@
   }
 }
 
-#menu-toggle{
-  &:checked + .header-nav-items{
+#menu-toggle {
+  &:checked + .header-nav-items {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  &:checked + .header-nav{
+  &:checked + .header-nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: block;
