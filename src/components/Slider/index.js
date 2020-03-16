@@ -7,14 +7,17 @@ import phone from "../../img/slider/slider-iphone.png";
 const Slider = () => {
   let slider = useRef(null);
   let sliderContainer = useRef(null);
-  
-  const onScrollHandler = (event) => {
-    const { top } = slider.current.getBoundingClientRect();
-    
-    sliderContainer.current.style.transform = `translateY(${Math.abs(top) * 0.1}px)`
-  }
 
-  document.addEventListener('scroll', onScrollHandler);
+  const onScrollHandler = event => {
+    const { top } = slider.current.getBoundingClientRect();
+
+    if (top < -600) return;
+
+    sliderContainer.current.style.transform = `translateY(${Math.abs(top) *
+      0.5}px)`;
+  };
+
+  document.addEventListener("scroll", onScrollHandler);
 
   return (
     <div className="slider" ref={slider}>
