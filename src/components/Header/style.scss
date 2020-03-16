@@ -4,29 +4,12 @@
   position: fixed;
   z-index: 555;
   background-color: white;
+  box-shadow: 10px -6px 11px grey;
   &-navbar {
     display: flex;
     justify-content: space-between;
   }
-  @media (max-width: 575.98px) {
-    width: 100%;
-  }
-  @media (min-width: 576px) {
-    width: 540px;
-    margin: 0 auto;
-  }
-  @media (min-width: 768px) {
-    width: 750px;
-    margin: 0 auto;
-  }
-  @media (min-width: 992px) {
-    width: 750px;
-    margin: 0 auto;
-  }
-  @media (min-width: 1200px) {
-    width: 100%;
-    // margin: 0 auto;
-  }
+  width: 100%;
 
   &-logo {
     border-right: 1px solid #eee;
@@ -56,15 +39,11 @@
       z-index: 3;
     }
     &-trigger {
-      // position: absolute;
-      // top: 38px;
-      // left: 20px;
       display: none;
       font-size: 14px;
       @media (max-width: 991px) {
         display: block;
         margin: auto 0;
-        // padding: 0 30px;
       }
     }
 

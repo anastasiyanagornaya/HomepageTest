@@ -2,7 +2,6 @@ import React from "react";
 
 import "./style.scss";
 import footerLogo from "../../img/information/footer-logo.png";
-// import worldMap from "../../img/information/world-map.png";
 
 const blogrollItems = [
   "Documentation",
@@ -19,7 +18,7 @@ const Posts = [
     id: 1,
     text: "Lorem ipsum dolor sit amet, consectetur",
     date: "10th July 2014"
-  }, //?
+  },
   {
     id: 1,
     text: "Elit Assumenda vel amet dolorum quasi",
@@ -78,7 +77,6 @@ const Information = () => {
             </ul>
           </div>
           <div className="information-summary-posts">
-            {/* ? */}
             <h4>Recent posts</h4>
             <ul className="information-summary-posts-items">
               {Posts.map(item => (
@@ -94,7 +92,6 @@ const Information = () => {
           <div className="information-contacts">
             <div className="information-contacts-statistics">
               <div className="information-contacts-statistics-downloads">
-                {/* counter */}
                 <div className="counter">15,065,421</div>
                 <h5>Total downloads</h5>
               </div>
@@ -109,14 +106,16 @@ const Information = () => {
                 Offers & Inside Scoops:
               </h5>
               <form className="information-form-subscribe">
-                <div className="information-form-subscribe-icon">
-                  <div className="information-form-subscribe-icon-box">
-                    <i class="fa fa-paper-plane"></i>
+                <div className="information-form-subscribe-box">
+                  <div className="information-form-subscribe-icon">
+                    <div className="information-form-subscribe-icon-box">
+                      <i class="fa fa-paper-plane"></i>
+                    </div>
                   </div>
-                </div>
-                <input type="email" placeholder="Enter your Email" />
-                <div className="information-form-subscribe-button">
-                  Subscribe
+                  <input type="email" placeholder="Enter your Email" />
+                  <div className="information-form-subscribe-button">
+                    Subscribe
+                  </div>
                 </div>
               </form>
             </div>

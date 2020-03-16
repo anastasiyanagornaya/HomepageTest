@@ -32,19 +32,21 @@ const advantageItems = [
 
 const Advantages = () => {
   return (
-    <div className="container">
-      <div className="advantages-box">
-        <ul className="advantages-items">
-          {advantageItems.map(item => (
-            <li key={item.id} className="advantages-item">
-              <AdvantagesItem
-                img={item.img}
-                title={item.title}
-                description={item.description}
-              />
-            </li>
-          ))}
-        </ul>
+    <div className="advantages">
+      <div className="container">
+        <div className="advantages-box">
+          <ul className="advantages-items">
+            {advantageItems.map(item => (
+              <li key={item.id} className="advantages-item">
+                <AdvantagesItem
+                  img={item.img}
+                  title={item.title}
+                  description={item.description}
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );

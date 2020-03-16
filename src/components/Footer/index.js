@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="container flex">
-        <div className="footer-copirights">
+        <div className="footer-copyrights">
           Copyrights © 2014 All Rights Reserved by Canvas Inc.
           <br />
           <div className="footer-copyrights-links">

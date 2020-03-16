@@ -7,14 +7,12 @@
     text-align: left;
     font-size: 14px;
     line-height: 1.8;
-    /* font-family: Lato,sans-serif; */
     &-links {
       font-size: 14px;
       line-height: 1.8;
       a {
         text-decoration: none;
         color: rgba(255, 255, 255, 0.25);
-        /* font-family: Lato,sans-serif; */
         display: inline-block;
         margin: 0 3px;
         border-bottom: 1px dotted #444;
@@ -53,7 +51,6 @@
         i {
           font-size: 15px;
           color: #555555;
-          // transform: translateY(48px);
         }
         .first {
           position: absolute;
@@ -95,6 +92,7 @@
       }
     }
     &-info {
+      text-align: right;
       &.middot {
         margin: 0 5px;
       }
@@ -106,7 +104,10 @@
 }
 
 .middot {
-  margin: 0 5px 5px; //??
+  display: inline-block;
+  margin: 0 5px;
+  vertical-align: top;
+  line-height: 12px;
 }
 
 .flex {
