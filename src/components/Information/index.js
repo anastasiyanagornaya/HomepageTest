@@ -112,7 +112,34 @@ const Information = () => {
                 <input type="email" />
               </form>
             </div>
-            <div className="information-contacts-networks"></div>
+            <div className="information-contacts-networks">
+              <div className="information-contacts-networks-box">
+                <a href="#" class="information-contacts-networks-link blue">
+                  <i class="fa fa-facebook-f first"></i>
+                  <i class="fa fa-facebook-f second"></i>
+                </a>
+                <a href="#" className="information-contacts-networks-text">
+                  <small>
+                    <strong>Like us</strong>
+                    <br />
+                    on Facebook
+                  </small>
+                </a>
+              </div>
+              <div className="information-contacts-networks-box">
+                <a href="#" class="information-contacts-networks-link orange">
+                  <i class="fa fa-rss first"></i>
+                  <i class="fa fa-rss second"></i>
+                </a>
+                <a href="#" className="information-contacts-networks-text">
+                  <small>
+                    <strong>Like us</strong>
+                    <br />
+                    on Facebook
+                  </small>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

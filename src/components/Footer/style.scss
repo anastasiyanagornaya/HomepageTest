@@ -26,6 +26,74 @@
     }
   }
   &-contacts {
+    &-social-networks {
+      display: flex;
+      justify-content: flex-end;
+      &-link {
+        display: block;
+        position: relative;
+        flex-direction: column;
+        margin: 0 4px 10px 0;
+        overflow: hidden;
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        font-size: 30px;
+        border-radius: 4%;
+        text-align: center;
+        overflow: hidden;
+        cursor: pointer;
+        &:hover {
+          i {
+            color: #fff;
+            transform: translateY(-31px);
+            transition: all 0.3s ease;
+          }
+        }
+        i {
+          font-size: 15px;
+          color: #555555;
+          // transform: translateY(48px);
+        }
+        .first {
+          position: absolute;
+          top: 7px;
+          left: 9px;
+        }
+        .second {
+          position: absolute;
+          top: 38px;
+          left: 9px;
+        }
+        &:hover {
+          transition: all 0.3s ease;
+          &.facebook {
+            background-color: #3b5998;
+          }
+          &.twitter {
+            background-color: #00acee;
+          }
+          &.google-plus {
+            background-color: #dd4b39;
+          }
+          &.pinterest {
+            background-color: #c8232c;
+          }
+          &.vimeo {
+            background-color: #86c9ef;
+          }
+          &.github {
+            background-color: #171515;
+          }
+          &.yahoo {
+            background-color: #720e9e;
+          }
+          &.linkedin {
+            background-color: #0e76a8;
+          }
+        }
+      }
+    }
     &-info {
       &.middot {
         margin: 0 5px;

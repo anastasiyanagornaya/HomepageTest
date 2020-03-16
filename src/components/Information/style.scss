@@ -55,7 +55,8 @@
         list-style-type: none;
         padding: 4px;
         a {
-          background: url(../../img/information/widget-link-dark.png) left top no-repeat;
+          background: url(../../img/information/widget-link-dark.png) left top
+            no-repeat;
           padding-left: 12px;
           text-decoration: none;
           color: #ccc;
@@ -97,7 +98,7 @@
           text-transform: initial;
           line-height: 1.5;
           margin: 0 0 30px;
-          font-family: Raleway,sans-serif;
+          font-family: Raleway, sans-serif;
           letter-spacing: normal;
           a {
             text-decoration: none;
@@ -108,7 +109,7 @@
           color: #888;
           font-size: 13px;
           line-height: 14px;
-          font-family: crete round,serif;
+          font-family: crete round, serif;
           font-style: italic;
         }
       }
@@ -157,12 +158,71 @@
         font-weight: 300;
         font-size: 14px;
         line-height: 1.5;
-        font-family: Raleway,sans-serif;
+        font-family: Raleway, sans-serif;
         color: #eee;
       }
     }
     &-networks {
+      display: flex;
+      justify-content: space-between;
       margin-top: 50px;
+      &-box {
+        display: flex;
+        justify-content: flex-start;
+      }
+      &-link {
+        display: block;
+        position: relative;
+        flex-direction: column;
+        margin: 0 10px 10px 0;
+        overflow: hidden;
+        color: #fff;
+        width: 38px;
+        height: 38px;
+        font-size: 30px;
+        border-radius: 4%;
+        text-align: center;
+        overflow: hidden;
+        cursor: pointer;
+        &:hover {
+          i {
+            transform: translateY(-29px);
+            transition: all 0.3s ease;
+          }
+        }
+        i {
+          font-size: 20px;
+          // transform: translateY(48px);
+        }
+        .first {
+          position: absolute;
+          top: 9px;
+          left: 12px;
+        }
+        .second {
+          position: absolute;
+          top: 38px;
+          left: 12px;
+        }
+        &.blue {
+          background-color: #3b5998;
+        }
+        &.orange {
+          background-color: #ee802f;
+        }
+        &:hover {
+          transition: all 0.3s ease;
+        }
+      }
+      &-text {
+        text-decoration: none;
+        color: #ccc;
+        small {
+          font-size: 80%;
+          font-weight: 400;
+          font-family: Lato, sans-serif;
+        }
+      }
     }
     @media (max-width: 767px) {
       width: 100%;
@@ -176,7 +236,7 @@
 .counter {
   font-size: 28px;
   font-weight: 600;
-  font-family: Raleway,sans-serif;
+  font-family: Raleway, sans-serif;
   h5 {
     color: #ccc;
   }
