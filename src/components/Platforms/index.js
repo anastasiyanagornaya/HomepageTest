@@ -27,8 +27,8 @@ const Platforms = () => {
                 data-animate="fadeInUp"
                 title="iOS App Store"
               >
-                <i class="fa fa-apple"></i>
-                <i class="fa fa-apple"></i>
+                <i class="fa fa-apple first"></i>
+                <i class="fa fa-apple second"></i>
               </a>
               <a
                 href="#"
@@ -36,8 +36,8 @@ const Platforms = () => {
                 data-animate="fadeInUp"
                 title="Android Store"
               >
-                <i class="fa fa-android"></i>
-                <i class="fa fa-android"></i>
+                <i class="fa fa-android first"></i>
+                <i class="fa fa-android second"></i>
               </a>
               <a
                 href="#"
@@ -45,8 +45,8 @@ const Platforms = () => {
                 data-animate="fadeInUp"
                 title="Windows Store"
               >
-                <i class="fa fa-windows"></i>
-                <i class="fa fa-windows"></i>
+                <i class="fa fa-windows first"></i>
+                <i class="fa fa-windows second"></i>
               </a>
             </div>
           </div>
