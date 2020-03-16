@@ -108,8 +108,16 @@ const Information = () => {
                 Subscribe to Our Newsletter to get Important News, Amazing
                 Offers & Inside Scoops:
               </h5>
-              <form>
-                <input type="email" />
+              <form className="information-form-subscribe">
+                <div className="information-form-subscribe-icon">
+                  <div className="information-form-subscribe-icon-box">
+                    <i class="fa fa-paper-plane"></i>
+                  </div>
+                </div>
+                <input type="email" placeholder="Enter your Email" />
+                <div className="information-form-subscribe-button">
+                  Subscribe
+                </div>
               </form>
             </div>
             <div className="information-contacts-networks">

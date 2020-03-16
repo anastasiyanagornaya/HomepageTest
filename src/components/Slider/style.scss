@@ -4,7 +4,6 @@
   // background: url("../../img/slider/appshowcase1.jpg") 0% 0% / cover;
   // background-position: fixed;
   // height: 602px;
-  height: 658px;
   // position: absolute;
   width: 100%;
   position: relative;
@@ -29,7 +28,8 @@
   // }
   &-container {
     display: flex;
-    max-width: 1170px;
+    // max-width: 1170px;
+    height: 906px;
     padding: 0 15px;
     margin: 0 auto;
     // transform-style: preserve-3d;
