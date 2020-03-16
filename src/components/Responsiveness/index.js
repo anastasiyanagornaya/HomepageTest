@@ -10,7 +10,7 @@ const Responsiveness = () => {
       <div className="container">
         <div className="responsiveness-box">
           <div className="responsiveness-image">
-            <img src={iphone} />
+            <img src={iphone} alt="iphone" />
           </div>
           <div className="responsiveness-description">
             <div className="responsiveness-description-title">

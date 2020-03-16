@@ -19,10 +19,12 @@
   &-item {
     list-style-type: none;
     width: 30.63%;
-    /* margin-right: 4%; right*/
     margin-right: 2%;
     margin-bottom: 50px;
     text-align: left;
+    &:nth-child(3n + 3) {
+      margin-right: 0;
+    }
     &-box {
       position: relative;
       padding: 0 0 0 80px;

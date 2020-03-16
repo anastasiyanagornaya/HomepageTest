@@ -1,7 +1,6 @@
 import React from "react";
 
 import "./style.scss";
-// import logo from "../../img/header/logo.png";
 
 const Platforms = () => {
   return (

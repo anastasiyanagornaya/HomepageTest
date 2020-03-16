@@ -21,27 +21,29 @@ const Slider = () => {
 
   return (
     <div className="slider" ref={slider}>
-      <div className="slider-container" ref={sliderContainer}>
-        <div className="slider-image">
-          <img src={phone} alt="IPhone" />
-        </div>
-        <div className="slider-info">
-          <div className="slider-info-title">
-            <h1>
-              The new way to create awesome websites. Try using{" "}
-              <strong>Canvas</strong> Template.
-            </h1>
+      <div className="slider-box container" ref={sliderContainer}>
+        <div>
+          <div className="slider-image">
+            <img src={phone} alt="IPhone" />
           </div>
-          <div className="slider-info-button">
-            <a href="#" className="slider-info-button-link">
-              <div className="slider-info-button-link-box">
-                <i class="fa fa-apple"></i>
-                <div className="slider-info-button-link-text">
-                  Start your free trial{" "}
-                  <span>30-Days & No Credit card Required</span>
+          <div className="slider-info">
+            <div className="slider-info-title">
+              <h1>
+                The new way to create awesome websites. Try using{" "}
+                <strong>Canvas</strong> Template.
+              </h1>
+            </div>
+            <div className="slider-info-button">
+              <a href="#" className="slider-info-button-link">
+                <div className="slider-info-button-link-box">
+                  <i class="fa fa-apple"></i>
+                  <div className="slider-info-button-link-text">
+                    Start your free trial{" "}
+                    <span>30-Days & No Credit card Required</span>
+                  </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
         </div>
       </div>

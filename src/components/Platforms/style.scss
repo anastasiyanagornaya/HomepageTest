@@ -42,6 +42,13 @@
       line-height: 1.8;
       font-family: Lato, sans-serif;
     }
+    &:after {
+      content: "";
+      display: block;
+      width: 10%;
+      margin: 45px auto;
+      border-top: 1px solid #eee;
+    }
   }
   &-icons {
     &-link {
@@ -68,13 +75,6 @@
         transition: all 0.3s ease;
       }
     }
-    &:after {
-      content: "";
-      display: block;
-      width: 10%;
-      margin: 45px auto;
-      border-top: 1px solid #eee;
-    }
   }
   &-icons {
     display: flex;
@@ -99,9 +99,6 @@
           transform: translateY(-48px);
           transition: all 0.3s ease;
         }
-      }
-      i {
-        // transform: translateY(48px);
       }
       .first {
         position: absolute;
@@ -171,7 +168,7 @@
         width: 62%;
         border: 1px solid #ced4da;
         padding: 0.5rem 1rem;
-        width: 100%;
+        width: 62%;
         font-size: 1.25rem;
         line-height: 1.5;
         letter-spacing: 0.5px;
