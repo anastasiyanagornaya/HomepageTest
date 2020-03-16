@@ -1,13 +1,24 @@
-import React from "react";
+import React, { useRef } from "react";
 import AppleIcon from "@material-ui/icons/Apple";
 
 import "./style.scss";
 import phone from "../../img/slider/slider-iphone.png";
 
 const Slider = () => {
+  let slider = useRef(null);
+  let sliderContainer = useRef(null);
+  
+  const onScrollHandler = (event) => {
+    const { top } = slider.current.getBoundingClientRect();
+    
+    sliderContainer.current.style.transform = `translateY(${Math.abs(top) * 0.1}px)`
+  }
+
+  document.addEventListener('scroll', onScrollHandler);
+
   return (
-    <div className="slider">
-      <div className="slider-container">
+    <div className="slider" ref={slider}>
+      <div className="slider-container" ref={sliderContainer}>
         <div className="slider-image">
           <img src={phone} alt="IPhone" />
         </div>
